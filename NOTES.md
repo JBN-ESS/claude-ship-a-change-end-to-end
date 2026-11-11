@@ -12,6 +12,7 @@ Planned split, one logical change per commit:
 1. Add `updateUser` to `db/store.js` (data layer).
 2. Add `PUT /users/:id` with validation and 404 handling in `routes/users.js`.
 3. Add `CLAUDE.md` and `NOTES.md` (docs).
+   
 I choose that split to keep commits clear and handle one task per commit   
 
 ## Review
