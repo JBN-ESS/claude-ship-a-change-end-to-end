@@ -1,7 +1,7 @@
 # NOTES
 
 ## Plan
-I did no tedit the proposed plan
+I did not edit the proposed plan
 Add `PUT /users/:id` following the existing pattern: a new `updateUser(id, { name, email })` helper in `db/store.js`, and a `PUT /:id` handler in `routes/users.js` that validates input, calls the store, and returns 200, 400 or 404. No edits to the provided tests.
 
 ## Model
